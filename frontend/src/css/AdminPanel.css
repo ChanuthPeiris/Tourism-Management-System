@@ -1,0 +1,47 @@
+.admin-panel {
+  position: absolute;
+  height: 100%;
+}
+
+.vertical-nav {
+  width: 1900px;
+  background: linear-gradient(to right, #333 0%, #610e0e 2px, #6a6597 2px);
+  padding: 20px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.vertical-nav ul {
+  list-style: none;
+  padding: 10;
+  margin: 0;
+}
+
+.vertical-nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.vertical-nav a {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 17px;
+  
+  text-decoration: none;
+  color: #f7f7f7;
+  background-color: #3d2f3d;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.vertical-nav a:hover {
+  background-color: #951919;
+}
+
+.vertical-nav .active {
+  background-color: #999;
+  color: #d52424;
+}
+
+
+

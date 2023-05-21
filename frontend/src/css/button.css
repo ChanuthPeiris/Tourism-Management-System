@@ -1,0 +1,47 @@
+
+
+.mybtn{
+    
+    background-color: #5bffd3;
+    border: none;
+    color: rgb(10, 1, 1);
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 1px 1px;
+    cursor: pointer;
+    border-radius: 8px;
+    
+  }
+
+  .mybtnD{
+    
+    background-color: #ff5b5b;
+    border: none;
+    color: rgb(10, 1, 1);
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 1px 1px;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 8px;
+    
+  }
+
+
+.my3{
+   color: #fa0202;
+   text-align: center;
+   width: 100%;
+   padding: 10px;
+   opacity: 0.7;
+   border: 1px solid rgb(112, 20, 20);
+   margin: 0;
+   background-color: #ffffff; 
+   
+  }

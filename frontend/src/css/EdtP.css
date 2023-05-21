@@ -1,0 +1,65 @@
+.EDTBOX {
+    position: relative; /* Make the container position relative */
+    display: flex;
+    align-items: center;
+    margin: 70px auto;
+    max-width: 800px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .EDTBOX::before {
+    content: '';
+    position: absolute; /* Make the element position absolute */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: #ffffff; /* Set the background color */
+    opacity: 0.5; /* Set the opacity */
+    z-index: -1; /* Position it behind the container */
+  }
+  
+  
+  
+ 
+  
+  label {
+    margin-top: 10px;
+    width:700px; /* Set a width for the labels */
+    color: #333; /* Change the label text color */
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-top: 10px;
+  }
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-top: 10px;
+  }
+  
+  button {
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #a88783;
+  }
+  

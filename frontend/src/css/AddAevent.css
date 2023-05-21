@@ -1,0 +1,132 @@
+body {
+	background-image: url("../Images/bluemy.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+  
+
+
+
+
+.containerZ {
+	max-width:800px;
+	width:100%;
+	margin:auto;
+	position:relative;
+	
+	
+	
+	
+    
+}
+
+
+
+#contactZ {
+	background:#e6e6e6;
+	padding:25px;
+	margin:10px 0;
+	border-radius: 30px;
+	font-size: 20px;
+	box-shadow: 4px 6px 26px 0  #8e84cc;
+	 
+}
+
+#contactZ h3 {
+	color: rgb(20, 2, 2);
+	display: block;
+	font-size: 30px;
+	text-align: center;
+	font-weight: 600;
+	width: 400px;
+	border: 2px solid rgb(255, 255, 255);
+	padding: 0px;
+	margin: 0px;
+	box-shadow: 1px 2px 4px 0  #120f0f;
+	border-radius: 20px;
+}
+
+#contactZ h4 {
+	margin:5px 0 15px;
+	display:block;
+	font-size:15px;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 40px;
+	min-width: 00%;
+	padding: 0;
+	width: 100%;
+	 
+   
+}
+
+#contactZ input[type="text"], #contactZ input[type="email"], #contactZ input[type="datetime-local"], #contactZ input[type="tel"],#contactZ input[type="time"], #contactZ input[type="Number"],  #contactZ input[type="url"], #contactZ textarea {
+	width:100%;
+	border:1px solid #fff8f8;
+	background:#fbffec;
+	margin:2px 0 5px;
+	padding:2px;
+	 
+
+}
+
+
+#contactZ input[type="text"], #contactZ input[type="email"], #contactZ input[type="datetime-local"], #contactZ input[type="tel"], #contactZ input[type="time"], #contactZ input[type="Number"], #contactZ input[type="url"], #contactZ textarea {
+    color: black;
+	font-size: 18px;
+	 
+}
+
+
+#contactZ input[type="text"]:hover, #contactZ input[type="email"],#contactZ input[type="tel"]:hover, #contactZ input[type="url"]:hover, #contactZ textarea:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #210202;
+}
+
+
+
+#contactZ button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border: 1px;
+	background:rgb(225, 96, 79);
+	color:#eadfdf;
+ 
+	margin:0 0 17px;
+	padding:15px;
+	font-size:15px;
+}
+
+#contactZ button[type="submit"]:hover {
+	background:rgb(10, 177, 127);
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+
+#contactZ button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contactZ input:focus, #contactZ textarea:focus {
+	outline:0;
+	border:1px solid #f1efef;
+}
+::-webkit-input-placeholder {
+ color:#000000;
+}
+:-moz-placeholder {
+ color:#5d0505;
+}
+::-moz-placeholder {
+ color:#a11010;
+}
+:-ms-input-placeholder {
+ color:#9c1d1d;
+}
+
+
+
+

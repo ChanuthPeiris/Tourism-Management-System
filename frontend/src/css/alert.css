@@ -1,0 +1,31 @@
+
+.alert {
+	position:absolute;
+	top:4;
+    right:   0;
+
+	width: 24%;
+	padding: 26px;
+	font-size:19px;
+	text-align: center;
+  }
+  
+  .alert.success {
+	background-color: #4CAF50;
+	color: white;
+  }
+  
+  .alert.error {
+	background-color: #f44336;
+	color: white;
+  }
+  
+  .alert button {
+	background-color:transparent;
+	border: none;
+	color: inherit;
+	cursor: pointer;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+  }
